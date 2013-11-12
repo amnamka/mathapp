@@ -1,0 +1,1 @@
+alert "Hello 111 CoffeeScript!"

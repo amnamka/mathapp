@@ -1,0 +1,1 @@
+alert "Hello NEW 2 CoffeeScript!"
