@@ -29,22 +29,6 @@ module.exports = function(grunt) {
             }
         },
 
-        jade: {
-            compile: {
-                options: {
-                    client: false,
-                    pretty: true
-                },
-                files: [{
-                  cwd: './views',
-                  src: '**/*.jade',
-                  dest: './public',
-                  ext: '.html',
-                  expand: true
-                }]
-            }
-        },
-
         watch: {
             styles: {
                 // all .less files recursively in the less directory
