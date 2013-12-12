@@ -11,7 +11,6 @@ var path = require('path');
 var mongoose = require('mongoose');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var flash = require('connect-flash');
 
 
 var app = express();
